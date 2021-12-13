@@ -13,5 +13,9 @@ export default {
 
 
 <style scoped lang="scss">
+header {
+    // debug
+    height: 100px;
 
+}
 </style>
