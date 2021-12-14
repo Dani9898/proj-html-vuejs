@@ -1,5 +1,5 @@
 <template>
-    <div class="myclients">
+    <section class="myclients">
 
         <img src="../assets/img/client-logo-7.png" alt="">
         <img src="../assets/img/client-logo-8.png" alt="">
@@ -8,7 +8,7 @@
         <img src="../assets/img/client-logo-6.png" alt="">
         <img src="../assets/img/client-logo-7.png" alt="">
 
-    </div>
+    </section>
 </template>
 
 <script>
