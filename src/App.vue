@@ -1,8 +1,17 @@
 <template>
   <div id="app">
-    <Header :headerVociMenu="headerMenu" />
+    <Header 
+    :headerVociMenu="headerMenu" 
+    />
+
     <Main/>
-    <Footer/>
+
+    <Footer 
+    :footerVociMenuSx="footerMenuSx"
+    :footerVociMenuCenter="footerMenuCenter"
+    :footerVociMenuDx="footerMenuDx"
+    
+    />
   </div>
 </template>
 
@@ -59,7 +68,45 @@ export default {
           active: false,
           button: false
         }
+      ],
+
+      footerMenuSx: [
+        {
+          text: ">  When is it the right time to sell your company?",
+          link: "#"
+        },
+        {
+          text: ">  Personal debt or company debt we explore your option",
+          link: "#"
+        },
+        {
+          text: ">  An interview with a so-called business angel",
+          link: "#"
+        }
+      ],
+
+       footerMenuCenter: [
+        {
+          text: "SMALL BUSINESS LOAN SERVICES",
+          link: "#"
+        },
+        {
+          text: "CREDTI RATING ADVICE SERVICES",
+          link: "#"
+        },
+        {
+          text: "CROWD FUNDING SERVICES",
+          link: "#"
+        }
+      ],
+
+      footerMenuDx: [
+        {
+          icon: "twitter",
+          link: "#"
+        }
       ]
+
     }
   }
 }
