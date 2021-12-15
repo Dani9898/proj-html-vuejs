@@ -36,13 +36,6 @@ export default {
             font-size: 40px;
         }
 
-        .line {
-            height: 2px;
-            width: 70px;
-            margin: 20px 0;
-            background-color: #1b304b;
-        }
-
         p {
             margin: 13px 0;
             width: 85%;

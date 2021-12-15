@@ -5,6 +5,7 @@
         <CloudBasedFinance/>
         <SpecialtyServices/>
         <InvestmentsNumbers/>
+        <ClientFeedback/>
     </main>
 </template>
 
@@ -14,6 +15,7 @@ import Clients from './Clients.vue'
 import CloudBasedFinance from './CloudBasedFinance.vue'
 import SpecialtyServices from './SpecialtyServices.vue'
 import InvestmentsNumbers from './InvestmentsNumbers.vue'
+import ClientFeedback from './ClientFeedback.vue'
 
 
 export default {
@@ -22,7 +24,8 @@ export default {
     Clients,
     CloudBasedFinance,
     SpecialtyServices,
-    InvestmentsNumbers
+    InvestmentsNumbers,
+    ClientFeedback
   },
 
   name: 'Main'

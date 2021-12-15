@@ -16,13 +16,7 @@ export default {
 
   props: {
     headerVociMenu: Array
-  },
-
-  data() {
-    return {
-    }
   }
-
 }
 </script>
 

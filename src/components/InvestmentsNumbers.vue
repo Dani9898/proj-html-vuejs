@@ -42,7 +42,7 @@ export default {
 
 
 <style scoped lang="scss">
-    section {
+    .my-inv-numbers {
         display: flex;
     }
 

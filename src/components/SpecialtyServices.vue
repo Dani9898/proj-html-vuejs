@@ -79,13 +79,6 @@ export default {
         font-size: 40px;
     }
 
-    .line {
-        height: 2px;
-        width: 80px;
-        margin: 30px 0;
-        background-color: #1b304b;
-    }
-
     p {
         margin: 5px 0;
     }
