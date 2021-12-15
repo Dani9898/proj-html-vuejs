@@ -147,7 +147,7 @@ export default {
             color: #5eddcc;
         }
         &:hover .btn-learn-more {
-            background-image: linear-gradient(to top, #0acfdb,  #5eddcc)
+            background-image: linear-gradient(to top, #0acfdb,  #5eddcc);
         }
 
 

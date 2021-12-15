@@ -4,6 +4,7 @@
         <Clients/>
         <CloudBasedFinance/>
         <SpecialtyServices/>
+        <InvestmentsNumbers/>
     </main>
 </template>
 
@@ -12,6 +13,7 @@ import Jumbotron from './Jumbotron.vue'
 import Clients from './Clients.vue'
 import CloudBasedFinance from './CloudBasedFinance.vue'
 import SpecialtyServices from './SpecialtyServices.vue'
+import InvestmentsNumbers from './InvestmentsNumbers.vue'
 
 
 export default {
@@ -19,7 +21,8 @@ export default {
     Jumbotron,
     Clients,
     CloudBasedFinance,
-    SpecialtyServices
+    SpecialtyServices,
+    InvestmentsNumbers
   },
 
   name: 'Main'

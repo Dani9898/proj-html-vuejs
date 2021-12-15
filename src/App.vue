@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header/>
+    <Header :headerVociMenu="headerMenu" />
     <Main/>
     <Footer/>
   </div>
@@ -13,10 +13,54 @@ import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
+
   components: {
     Header,
     Main,
     Footer
+  },
+
+  data(){
+    return {
+      headerMenu: [
+        {
+          text: "HOME",
+          active: true,
+          button: false
+
+        },
+        {
+          text: "ABOUT",
+          active: false,
+          button: false
+        },
+        {
+          text: "SERVICES",
+          active: false,
+          button: false
+        },
+        {
+          text: "PACKAGES",
+          active: false,
+          button: false
+        },
+        {
+          text: "INSIGHT",
+          active: false,
+          button: false
+        },
+        {
+          text: "CONTACT",
+          active: false,
+          button: true
+        },
+        {
+          text: "+",
+          active: false,
+          button: false
+        }
+      ]
+    }
   }
 }
 </script>
@@ -39,10 +83,11 @@ export default {
             margin-top: 35px;
             padding: 12px 18px;
             letter-spacing: 2px;
-            border-radius: 18px;
+            border-radius: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
+            transition: all .3s linear;
 
             &:hover {
                 opacity: 1;
