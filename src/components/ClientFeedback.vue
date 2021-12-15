@@ -62,9 +62,6 @@ export default {
 
 
 <style scoped lang="scss">
-section {
-    margin-bottom: 400px;
-}
 .title {
     display: flex;
     flex-direction: column;
